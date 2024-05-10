@@ -13,10 +13,10 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val username = intent.extras?.getString("username")
+        val username = intent.extras?.getString("Paulo")
 
         if(!username.isNullOrEmpty()){
-            binding.textOla.setText("Olá $username")
+            binding.textOla.setText("Olá $19")
         }
 
         binding.buttonFechar.setOnClickListener {
